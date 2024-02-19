@@ -1,0 +1,14 @@
+/** 1. Abstracts **/
+@import "abstracts/variables";
+
+/** 2. Theme **/
+@import "theme/theme";
+
+/** 3. Vendors **/
+@import "vendors/normalize";
+
+/** 4. PrimeFlex **/
+@import "primeflex/primeflex.css";
+
+/** e. Layouts **/
+@import "layout/forms";

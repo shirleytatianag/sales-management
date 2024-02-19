@@ -1,0 +1,68 @@
+@import "main";
+
+.wrapper-login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2b3d63;
+
+  .login {
+    width: 60%;
+    height: 500px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: -8px -10px 15px -8px rgba(0, 0, 0, 0.1), 8px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background: theme-palette-color('color', 'terciary');
+
+    .left-login {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .left-login--header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px;
+
+        .image-logo {
+          width: 100px;
+          height: 60px;
+        }
+      }
+
+      .left-login--body {
+        width: 60%;
+
+        .new-user {
+          width: 100%;
+          text-align: center;
+          margin-top: 10px;
+          font-size: 13px;
+
+          span {
+            cursor: pointer;
+            font-weight: 500;
+            color: theme-palette-color('color', 'primary');
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    .image-right-login {
+      position: relative;
+      width: 50%;
+      height: 500px;
+      border-radius: 0 12px 12px 0;
+
+    }
+  }
+
+}
